@@ -7,6 +7,8 @@ NVIDIA-Linux/libnvidia-nvvm70.so.4                        usr/lib/x86_64-linux-g
 NVIDIA-Linux/libnvidia-opencl.so.580.95.05                usr/lib/x86_64-linux-gnu
 NVIDIA-Linux/libnvidia-ptxjitcompiler.so.580.95.05        usr/lib/x86_64-linux-gnu
 NVIDIA-Linux/nvidia.icd                                   etc/OpenCL/vendors
+NVIDIA-Linux/libnvidia-wayland-client.so.580.105.08       usr/lib/x86_64-linux-gnu
+NVIDIA-Linux/libnvidia-sandboxutils.so.580.105.08         usr/lib/x86_64-linux-gnu
 #NVIDIA-Linux/32/libcuda.so.580.95.05                          usr/lib/x86_64-linux-gnu
 #NVIDIA-Linux/32/libnvidia-ml.so.580.95.05                     usr/lib/x86_64-linux-gnu
 #NVIDIA-Linux/32/libnvidia-nvvm.so.580.95.05                   usr/lib/x86_64-linux-gnu

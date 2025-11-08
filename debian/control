@@ -111,11 +111,11 @@ Depends:
 Suggests:
  nvidia-driver-580,
 Provides:
- nvidia-utils, nvidia-smi, nvidia-settings
+ nvidia-utils, nvidia-smi, nvidia-settings, nvidia-modprobe
 Conflicts:
- nvidia-utils, nvidia-smi, nvidia-settings
+ nvidia-utils, nvidia-smi, nvidia-settings, nvidia-modprobe
 Replaces:
- nvidia-utils, nvidia-smi, nvidia-settings
+ nvidia-utils, nvidia-smi, nvidia-settings, nvidia-modprobe
 Description: NVIDIA driver support binaries
  This package contains supporting binaries for the NVIDIA driver.
 
