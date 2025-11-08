@@ -102,6 +102,7 @@ NVIDIA-Linux-%:
 	sh $*/${NVIDIA_FILENAME_$*} --extract-only
 	ln -s ${NVIDIA_DIRNAME_$*} $@
 	ln -s $@ NVIDIA-Linux
+	sed -i 's/__UTILS_PATH__/\/usr\/bin/g' NVIDIA-Linux/nvidia-settings.desktop
 	#gunzip $@/*.1.gz
 
 # Unpack all architectures, we may need files from all of them.
