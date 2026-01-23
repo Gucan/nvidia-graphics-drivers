@@ -1,9 +1,7 @@
 Source: nvidia-graphics-drivers-590
 Section: non-free/libs
 Priority: optional
-Maintainer: Ubuntu Core Developers <ubuntu-devel-discuss@lists.ubuntu.com>
-Uploaders:
- Alberto Milone <alberto.milone@canonical.com>,
+Maintainer: Ubuntu Kernel Team <kernel-team@lists.ubuntu.com>
 Vcs-Git: git://github.com/canonical/nvidia-graphics-drivers.git
 Vcs-Browser: https://github.com/canonical/nvidia-graphics-drivers/tree/590
 Build-Depends:
@@ -24,7 +22,6 @@ Build-Depends:
  libc6,
  libx11-6,
  python3,
- libgtk2.0-0t64,
 Standards-Version: 4.1.1
 Homepage: http://www.nvidia.com
 XS-Autobuild: yes
@@ -263,13 +260,13 @@ Description: NVIDIA OpenGL/GLX/EGL/GLES GLVND libraries and Vulkan ICD
  Vulkan ICD.
 
 Package: libnvidia-common-590
-Architecture: all
+Architecture: i386 amd64 arm64
 Multi-Arch: foreign
 Conflicts: libnvidia-common
 Replaces: libnvidia-common
 Provides: libnvidia-common
 Depends:
- nvidia-kernel-common-590-590.48.01,
+ nvidia-kernel-common-590-590.48.01i [!i386],
  ${misc:Depends}, ${shlibs:Depends}
 Description: Shared files used by the NVIDIA libraries
  This package provides a set of files that are required by the NVIDIA
