@@ -30,9 +30,9 @@ Package: nvidia-driver-590
 Architecture: amd64 arm64
 Depends:
  libnvidia-gl-590 (= ${binary:Version}),
- nvidia-dkms-590 (<= 590.48.01-1),
+ nvidia-dkms-590 (<= 590.48.01-2),
  nvidia-dkms-590 (>= 590.48.01),
- nvidia-kernel-common-590 (<= 590.48.01-1),
+ nvidia-kernel-common-590 (<= 590.48.01-2),
  nvidia-kernel-common-590 (>= 590.48.01),
  nvidia-kernel-source-590 (= ${binary:Version}),
  libnvidia-compute-590 (= ${binary:Version}),
@@ -88,9 +88,9 @@ Provides:
  nvidia-dkms-kernel
 Depends:
  dkms,
- nvidia-kernel-source-590 (<= 590.48.01-1),
+ nvidia-kernel-source-590 (<= 590.48.01-2),
  nvidia-kernel-source-590 (>= 590.48.01),
- nvidia-kernel-common-590 (<= 590.48.01-1),
+ nvidia-kernel-common-590 (<= 590.48.01-2),
  nvidia-kernel-common-590 (>= 590.48.01),
  nvidia-firmware-590-590.48.01,
  ${misc:Depends}, ${shlibs:Depends}
@@ -181,7 +181,7 @@ Description: NVIDIA compute utilities
 Package: nvidia-headless-no-dkms-590
 Architecture: amd64 arm64
 Depends:
- nvidia-kernel-common-590 (<= 590.48.01-1),
+ nvidia-kernel-common-590 (<= 590.48.01-2),
  nvidia-kernel-common-590 (>= 590.48.01),
  nvidia-kernel-source-590 (= ${binary:Version}),
  libnvidia-compute-590 (= ${binary:Version}),
@@ -395,9 +395,9 @@ Package: nvidia-driver-590-open
 Architecture: amd64 arm64
 Depends:
  libnvidia-gl-590 (= ${binary:Version}),
- nvidia-dkms-590-open (<= 590.48.01-1),
+ nvidia-dkms-590-open (<= 590.48.01-2),
  nvidia-dkms-590-open (>= 590.48.01),
- nvidia-kernel-common-590 (<= 590.48.01-1),
+ nvidia-kernel-common-590 (<= 590.48.01-2),
  nvidia-kernel-common-590 (>= 590.48.01),
  nvidia-kernel-source-590-open (= ${binary:Version}),
  libnvidia-compute-590 (= ${binary:Version}),
@@ -455,9 +455,9 @@ Provides:
  nvidia-dkms-kernel
 Depends:
  dkms,
- nvidia-kernel-source-590-open (<= 590.48.01-1),
+ nvidia-kernel-source-590-open (<= 590.48.01-2),
  nvidia-kernel-source-590-open (>= 590.48.01),
- nvidia-kernel-common-590 (<= 590.48.01-1),
+ nvidia-kernel-common-590 (<= 590.48.01-2),
  nvidia-kernel-common-590 (>= 590.48.01),
  ${misc:Depends}, ${shlibs:Depends}
 Description: NVIDIA DKMS package (open kernel module)
@@ -470,7 +470,7 @@ Description: NVIDIA DKMS package (open kernel module)
 Package: nvidia-headless-no-dkms-590-open
 Architecture: amd64 arm64
 Depends:
- nvidia-kernel-common-590 (<= 590.48.01-1),
+ nvidia-kernel-common-590 (<= 590.48.01-2),
  nvidia-kernel-common-590 (>= 590.48.01),
  nvidia-kernel-source-590-open (= ${binary:Version}),
  libnvidia-compute-590 (= ${binary:Version}),
