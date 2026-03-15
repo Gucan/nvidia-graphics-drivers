@@ -30,9 +30,9 @@ Package: nvidia-driver-#FLAVOUR#
 Architecture: amd64 arm64
 Depends:
  libnvidia-gl-#FLAVOUR# (= ${binary:Version}),
- nvidia-dkms-#FLAVOUR# (<= #DEBIAN_VERSION#-1),
+ nvidia-dkms-#FLAVOUR# (<= #DEBIAN_VERSION#-2),
  nvidia-dkms-#FLAVOUR# (>= #DEBIAN_VERSION#),
- nvidia-kernel-common-#FLAVOUR# (<= #DEBIAN_VERSION#-1),
+ nvidia-kernel-common-#FLAVOUR# (<= #DEBIAN_VERSION#-2),
  nvidia-kernel-common-#FLAVOUR# (>= #DEBIAN_VERSION#),
  nvidia-kernel-source-#FLAVOUR# (= ${binary:Version}),
  libnvidia-compute-#FLAVOUR# (= ${binary:Version}),
@@ -88,9 +88,9 @@ Provides:
  nvidia-dkms-kernel
 Depends:
  dkms,
- nvidia-kernel-source-#FLAVOUR# (<= #DEBIAN_VERSION#-1),
+ nvidia-kernel-source-#FLAVOUR# (<= #DEBIAN_VERSION#-2),
  nvidia-kernel-source-#FLAVOUR# (>= #DEBIAN_VERSION#),
- nvidia-kernel-common-#FLAVOUR# (<= #DEBIAN_VERSION#-1),
+ nvidia-kernel-common-#FLAVOUR# (<= #DEBIAN_VERSION#-2),
  nvidia-kernel-common-#FLAVOUR# (>= #DEBIAN_VERSION#),
  nvidia-firmware-#FLAVOUR#-#VERSION#,
  ${misc:Depends}, ${shlibs:Depends}
@@ -181,7 +181,7 @@ Description: NVIDIA compute utilities
 Package: nvidia-headless-no-dkms-#FLAVOUR#
 Architecture: amd64 arm64
 Depends:
- nvidia-kernel-common-#FLAVOUR# (<= #DEBIAN_VERSION#-1),
+ nvidia-kernel-common-#FLAVOUR# (<= #DEBIAN_VERSION#-2),
  nvidia-kernel-common-#FLAVOUR# (>= #DEBIAN_VERSION#),
  nvidia-kernel-source-#FLAVOUR# (= ${binary:Version}),
  libnvidia-compute-#FLAVOUR# (= ${binary:Version}),
@@ -395,9 +395,9 @@ Package: nvidia-driver-#FLAVOUR#-open
 Architecture: amd64 arm64
 Depends:
  libnvidia-gl-#FLAVOUR# (= ${binary:Version}),
- nvidia-dkms-#FLAVOUR#-open (<= #DEBIAN_VERSION#-1),
+ nvidia-dkms-#FLAVOUR#-open (<= #DEBIAN_VERSION#-2),
  nvidia-dkms-#FLAVOUR#-open (>= #DEBIAN_VERSION#),
- nvidia-kernel-common-#FLAVOUR# (<= #DEBIAN_VERSION#-1),
+ nvidia-kernel-common-#FLAVOUR# (<= #DEBIAN_VERSION#-2),
  nvidia-kernel-common-#FLAVOUR# (>= #DEBIAN_VERSION#),
  nvidia-kernel-source-#FLAVOUR#-open (= ${binary:Version}),
  libnvidia-compute-#FLAVOUR# (= ${binary:Version}),
@@ -455,9 +455,9 @@ Provides:
  nvidia-dkms-kernel
 Depends:
  dkms,
- nvidia-kernel-source-#FLAVOUR#-open (<= #DEBIAN_VERSION#-1),
+ nvidia-kernel-source-#FLAVOUR#-open (<= #DEBIAN_VERSION#-2),
  nvidia-kernel-source-#FLAVOUR#-open (>= #DEBIAN_VERSION#),
- nvidia-kernel-common-#FLAVOUR# (<= #DEBIAN_VERSION#-1),
+ nvidia-kernel-common-#FLAVOUR# (<= #DEBIAN_VERSION#-2),
  nvidia-kernel-common-#FLAVOUR# (>= #DEBIAN_VERSION#),
  ${misc:Depends}, ${shlibs:Depends}
 Description: NVIDIA DKMS package (open kernel module)
@@ -470,7 +470,7 @@ Description: NVIDIA DKMS package (open kernel module)
 Package: nvidia-headless-no-dkms-#FLAVOUR#-open
 Architecture: amd64 arm64
 Depends:
- nvidia-kernel-common-#FLAVOUR# (<= #DEBIAN_VERSION#-1),
+ nvidia-kernel-common-#FLAVOUR# (<= #DEBIAN_VERSION#-2),
  nvidia-kernel-common-#FLAVOUR# (>= #DEBIAN_VERSION#),
  nvidia-kernel-source-#FLAVOUR#-open (= ${binary:Version}),
  libnvidia-compute-#FLAVOUR# (= ${binary:Version}),
