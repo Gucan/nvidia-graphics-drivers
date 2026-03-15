@@ -30,9 +30,9 @@ Package: nvidia-driver-595
 Architecture: amd64 arm64
 Depends:
  libnvidia-gl-595 (= ${binary:Version}),
- nvidia-dkms-595 (<= 595.45.04-1),
+ nvidia-dkms-595 (<= 595.45.04-2),
  nvidia-dkms-595 (>= 595.45.04),
- nvidia-kernel-common-595 (<= 595.45.04-1),
+ nvidia-kernel-common-595 (<= 595.45.04-2),
  nvidia-kernel-common-595 (>= 595.45.04),
  nvidia-kernel-source-595 (= ${binary:Version}),
  libnvidia-compute-595 (= ${binary:Version}),
@@ -88,9 +88,9 @@ Provides:
  nvidia-dkms-kernel
 Depends:
  dkms,
- nvidia-kernel-source-595 (<= 595.45.04-1),
+ nvidia-kernel-source-595 (<= 595.45.04-2),
  nvidia-kernel-source-595 (>= 595.45.04),
- nvidia-kernel-common-595 (<= 595.45.04-1),
+ nvidia-kernel-common-595 (<= 595.45.04-2),
  nvidia-kernel-common-595 (>= 595.45.04),
  nvidia-firmware-595-595.45.04,
  ${misc:Depends}, ${shlibs:Depends}
@@ -181,7 +181,7 @@ Description: NVIDIA compute utilities
 Package: nvidia-headless-no-dkms-595
 Architecture: amd64 arm64
 Depends:
- nvidia-kernel-common-595 (<= 595.45.04-1),
+ nvidia-kernel-common-595 (<= 595.45.04-2),
  nvidia-kernel-common-595 (>= 595.45.04),
  nvidia-kernel-source-595 (= ${binary:Version}),
  libnvidia-compute-595 (= ${binary:Version}),
@@ -395,9 +395,9 @@ Package: nvidia-driver-595-open
 Architecture: amd64 arm64
 Depends:
  libnvidia-gl-595 (= ${binary:Version}),
- nvidia-dkms-595-open (<= 595.45.04-1),
+ nvidia-dkms-595-open (<= 595.45.04-2),
  nvidia-dkms-595-open (>= 595.45.04),
- nvidia-kernel-common-595 (<= 595.45.04-1),
+ nvidia-kernel-common-595 (<= 595.45.04-2),
  nvidia-kernel-common-595 (>= 595.45.04),
  nvidia-kernel-source-595-open (= ${binary:Version}),
  libnvidia-compute-595 (= ${binary:Version}),
@@ -455,9 +455,9 @@ Provides:
  nvidia-dkms-kernel
 Depends:
  dkms,
- nvidia-kernel-source-595-open (<= 595.45.04-1),
+ nvidia-kernel-source-595-open (<= 595.45.04-2),
  nvidia-kernel-source-595-open (>= 595.45.04),
- nvidia-kernel-common-595 (<= 595.45.04-1),
+ nvidia-kernel-common-595 (<= 595.45.04-2),
  nvidia-kernel-common-595 (>= 595.45.04),
  ${misc:Depends}, ${shlibs:Depends}
 Description: NVIDIA DKMS package (open kernel module)
@@ -470,7 +470,7 @@ Description: NVIDIA DKMS package (open kernel module)
 Package: nvidia-headless-no-dkms-595-open
 Architecture: amd64 arm64
 Depends:
- nvidia-kernel-common-595 (<= 595.45.04-1),
+ nvidia-kernel-common-595 (<= 595.45.04-2),
  nvidia-kernel-common-595 (>= 595.45.04),
  nvidia-kernel-source-595-open (= ${binary:Version}),
  libnvidia-compute-595 (= ${binary:Version}),
