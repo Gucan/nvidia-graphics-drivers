@@ -7,7 +7,7 @@ NVIDIA-Linux/10_nvidia.json                                usr/share/glvnd/egl_v
 NVIDIA-Linux/15_nvidia_gbm.json                            usr/share/egl/egl_external_platform.d
 NVIDIA-Linux/20_nvidia_xlib.json                           usr/share/egl/egl_external_platform.d
 NVIDIA-Linux/20_nvidia_xcb.json                            usr/share/egl/egl_external_platform.d
-NVIDIA-Linux/99_nvidia_wayland2.json                       usr/share/egl/egl_external_platform.d
+NVIDIA-Linux/09_nvidia_wayland2.json                       usr/share/egl/egl_external_platform.d
 NVIDIA-Linux/libEGL_nvidia.so.595.45.04                    usr/lib/x86_64-linux-gnu
 NVIDIA-Linux/libGLESv1_CM_nvidia.so.595.45.04              usr/lib/x86_64-linux-gnu
 NVIDIA-Linux/libGLESv2_nvidia.so.595.45.04                 usr/lib/x86_64-linux-gnu
