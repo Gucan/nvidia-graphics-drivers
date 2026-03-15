@@ -8,7 +8,7 @@ NVIDIA-Linux/nvidia-settings             usr/bin
 NVIDIA-Linux/nvidia-settings.1.gz        usr/share/man/man1
 NVIDIA-Linux/nvidia-settings.desktop     usr/share/applications
 NVIDIA-Linux/nvidia-settings.png         usr/share/pixmaps
-NVIDIA-Linux/libnvidia-gtk3.so.590.48.01 usr/lib/x86_64-linux-gnu
-NVIDIA-Linux/libnvidia-gtk2.so.590.48.01 usr/lib/x86_64-linux-gnu
+NVIDIA-Linux/libnvidia-gtk3.so.595.45.04 usr/lib/x86_64-linux-gnu
+NVIDIA-Linux/libnvidia-gtk2.so.595.45.04 usr/lib/x86_64-linux-gnu
 NVIDIA-Linux/nvidia-modprobe             usr/bin
 NVIDIA-Linux/nvidia-modprobe.1.gz        usr/share/man/man1

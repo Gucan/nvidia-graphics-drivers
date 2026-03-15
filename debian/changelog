@@ -1,8 +1,8 @@
-nvidia-graphics-drivers-590 (590.48.01-1ubuntu0.24.04.4) noble; urgency=medium
+nvidia-graphics-drivers-595 (595.45.04-1ubuntu0.24.04.4) noble; urgency=medium
 
-  * New upstream release 590.48.01 (LP: #2137575)
+  * New upstream release 595.45.04 (LP: #2137575)
 
- -- Gucan <727771028@qq.com>  Thu, 23 Dec 2025 01:13:55 +0800
+ -- Gucan <727771028@qq.com>  Sun, 15 Mar 2026 14:26:55 +0800
 
 nvidia-graphics-drivers-580 (580.105.08-0ubuntu0.24.04.1) noble; urgency=medium
 
