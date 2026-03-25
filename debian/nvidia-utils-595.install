@@ -1,0 +1,14 @@
+NVIDIA-Linux/nvidia-bug-report.sh        usr/bin
+NVIDIA-Linux/nvidia-debugdump            usr/bin
+NVIDIA-Linux/nvidia-smi                  usr/bin
+NVIDIA-Linux/nvidia-smi.1.gz             usr/share/man/man1
+NVIDIA-Linux/nvidia-xconfig              usr/bin
+NVIDIA-Linux/nvidia-xconfig.1.gz         usr/share/man/man1
+NVIDIA-Linux/nvidia-settings             usr/bin
+NVIDIA-Linux/nvidia-settings.1.gz        usr/share/man/man1
+NVIDIA-Linux/nvidia-settings.desktop     usr/share/applications
+NVIDIA-Linux/nvidia-settings.png         usr/share/pixmaps
+NVIDIA-Linux/libnvidia-gtk3.so.595.58.03 usr/lib/x86_64-linux-gnu
+NVIDIA-Linux/libnvidia-gtk2.so.595.58.03 usr/lib/x86_64-linux-gnu
+NVIDIA-Linux/nvidia-modprobe             usr/bin
+NVIDIA-Linux/nvidia-modprobe.1.gz        usr/share/man/man1
