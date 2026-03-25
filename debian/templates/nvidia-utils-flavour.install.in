@@ -8,7 +8,7 @@
 #I386_EXCLUDED#NVIDIA-Linux/nvidia-settings.1.gz        usr/share/man/man1
 #I386_EXCLUDED#NVIDIA-Linux/nvidia-settings.desktop     usr/share/applications
 #I386_EXCLUDED#NVIDIA-Linux/nvidia-settings.png         usr/share/pixmaps
-#I386_EXCLUDED#NVIDIA-Linux/libnvidia-gtk3.so.595.45.04 usr/lib/x86_64-linux-gnu
-#I386_EXCLUDED#NVIDIA-Linux/libnvidia-gtk2.so.595.45.04 usr/lib/x86_64-linux-gnu
+#I386_EXCLUDED#NVIDIA-Linux/libnvidia-gtk3.so.595.58.03 usr/lib/x86_64-linux-gnu
+#I386_EXCLUDED#NVIDIA-Linux/libnvidia-gtk2.so.595.58.03 usr/lib/x86_64-linux-gnu
 #I386_EXCLUDED#NVIDIA-Linux/nvidia-modprobe             usr/bin
 #I386_EXCLUDED#NVIDIA-Linux/nvidia-modprobe.1.gz        usr/share/man/man1
